@@ -47,7 +47,20 @@ class WeatherClient : NSObject {
                 print("Error Making the Weather List")
                 return
             }
-            print(weatherList[0])
+            var count = 1
+            for item in weatherList {
+                print("Weather Item : \(count)")
+                let current_date = item["dt_txt"]! as! String
+                
+                let windConditions = item["wind"] as! [String:AnyObject]
+                let wind_speed = windConditions["speed"]
+                
+                let mainWeatherConditions = item["main"] as? [String:AnyObject]
+                let sea_level = (mainWeatherConditions!["sea_level"])
+                let current_temp = mainWeatherConditions!["temp"]
+                let air_pressure = mainWeatherConditions!["pressure"]
+                count += 1
+            }
             
             dispatch_async(dispatch_get_main_queue()) {
                 // handler(photoArray: photos, cordinates: cord, page: photosDictionary["pages"] as! Int)
