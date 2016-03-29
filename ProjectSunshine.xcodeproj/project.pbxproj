@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48FE3F601CA5188600564699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F5F1CA5188600564699 /* AppDelegate.swift */; };
+		48FE3F621CA5188600564699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F611CA5188600564699 /* ViewController.swift */; };
+		48FE3F651CA5188600564699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FE3F631CA5188600564699 /* Main.storyboard */; };
+		48FE3F671CA5188600564699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FE3F661CA5188600564699 /* Assets.xcassets */; };
+		48FE3F6A1CA5188700564699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FE3F681CA5188600564699 /* LaunchScreen.storyboard */; };
+		48FE3F751CA5188700564699 /* ProjectSunshineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F741CA5188700564699 /* ProjectSunshineTests.swift */; };
+		48FE3F801CA5188700564699 /* ProjectSunshineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F7F1CA5188700564699 /* ProjectSunshineUITests.swift */; };
+		48FE3F8E1CA5195200564699 /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F8D1CA5195200564699 /* WeatherClient.swift */; };
+		48FE3F901CA51A2D00564699 /* WeatherAPIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE3F8F1CA51A2D00564699 /* WeatherAPIConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48FE3F711CA5188700564699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48FE3F541CA5188600564699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FE3F5B1CA5188600564699;
+			remoteInfo = ProjectSunshine;
+		};
+		48FE3F7C1CA5188700564699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48FE3F541CA5188600564699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FE3F5B1CA5188600564699;
+			remoteInfo = ProjectSunshine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48FE3F5C1CA5188600564699 /* ProjectSunshine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSunshine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FE3F5F1CA5188600564699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48FE3F611CA5188600564699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48FE3F641CA5188600564699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48FE3F661CA5188600564699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48FE3F691CA5188600564699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48FE3F6B1CA5188700564699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FE3F701CA5188700564699 /* ProjectSunshineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectSunshineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FE3F741CA5188700564699 /* ProjectSunshineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSunshineTests.swift; sourceTree = "<group>"; };
+		48FE3F761CA5188700564699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FE3F7B1CA5188700564699 /* ProjectSunshineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectSunshineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FE3F7F1CA5188700564699 /* ProjectSunshineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSunshineUITests.swift; sourceTree = "<group>"; };
+		48FE3F811CA5188700564699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FE3F8D1CA5195200564699 /* WeatherClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		48FE3F8F1CA51A2D00564699 /* WeatherAPIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPIConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48FE3F591CA5188600564699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F6D1CA5188700564699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F781CA5188700564699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48FE3F531CA5188600564699 = {
+			isa = PBXGroup;
+			children = (
+				48FE3F5E1CA5188600564699 /* ProjectSunshine */,
+				48FE3F731CA5188700564699 /* ProjectSunshineTests */,
+				48FE3F7E1CA5188700564699 /* ProjectSunshineUITests */,
+				48FE3F5D1CA5188600564699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48FE3F5D1CA5188600564699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48FE3F5C1CA5188600564699 /* ProjectSunshine.app */,
+				48FE3F701CA5188700564699 /* ProjectSunshineTests.xctest */,
+				48FE3F7B1CA5188700564699 /* ProjectSunshineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48FE3F5E1CA5188600564699 /* ProjectSunshine */ = {
+			isa = PBXGroup;
+			children = (
+				48FE3F5F1CA5188600564699 /* AppDelegate.swift */,
+				48FE3F611CA5188600564699 /* ViewController.swift */,
+				48FE3F631CA5188600564699 /* Main.storyboard */,
+				48FE3F661CA5188600564699 /* Assets.xcassets */,
+				48FE3F681CA5188600564699 /* LaunchScreen.storyboard */,
+				48FE3F6B1CA5188700564699 /* Info.plist */,
+				48FE3F8D1CA5195200564699 /* WeatherClient.swift */,
+				48FE3F8F1CA51A2D00564699 /* WeatherAPIConstants.swift */,
+			);
+			path = ProjectSunshine;
+			sourceTree = "<group>";
+		};
+		48FE3F731CA5188700564699 /* ProjectSunshineTests */ = {
+			isa = PBXGroup;
+			children = (
+				48FE3F741CA5188700564699 /* ProjectSunshineTests.swift */,
+				48FE3F761CA5188700564699 /* Info.plist */,
+			);
+			path = ProjectSunshineTests;
+			sourceTree = "<group>";
+		};
+		48FE3F7E1CA5188700564699 /* ProjectSunshineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48FE3F7F1CA5188700564699 /* ProjectSunshineUITests.swift */,
+				48FE3F811CA5188700564699 /* Info.plist */,
+			);
+			path = ProjectSunshineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48FE3F5B1CA5188600564699 /* ProjectSunshine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48FE3F841CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshine" */;
+			buildPhases = (
+				48FE3F581CA5188600564699 /* Sources */,
+				48FE3F591CA5188600564699 /* Frameworks */,
+				48FE3F5A1CA5188600564699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectSunshine;
+			productName = ProjectSunshine;
+			productReference = 48FE3F5C1CA5188600564699 /* ProjectSunshine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48FE3F6F1CA5188700564699 /* ProjectSunshineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48FE3F871CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshineTests" */;
+			buildPhases = (
+				48FE3F6C1CA5188700564699 /* Sources */,
+				48FE3F6D1CA5188700564699 /* Frameworks */,
+				48FE3F6E1CA5188700564699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48FE3F721CA5188700564699 /* PBXTargetDependency */,
+			);
+			name = ProjectSunshineTests;
+			productName = ProjectSunshineTests;
+			productReference = 48FE3F701CA5188700564699 /* ProjectSunshineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48FE3F7A1CA5188700564699 /* ProjectSunshineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48FE3F8A1CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshineUITests" */;
+			buildPhases = (
+				48FE3F771CA5188700564699 /* Sources */,
+				48FE3F781CA5188700564699 /* Frameworks */,
+				48FE3F791CA5188700564699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48FE3F7D1CA5188700564699 /* PBXTargetDependency */,
+			);
+			name = ProjectSunshineUITests;
+			productName = ProjectSunshineUITests;
+			productReference = 48FE3F7B1CA5188700564699 /* ProjectSunshineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48FE3F541CA5188600564699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MxMd;
+				TargetAttributes = {
+					48FE3F5B1CA5188600564699 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					48FE3F6F1CA5188700564699 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 48FE3F5B1CA5188600564699;
+					};
+					48FE3F7A1CA5188700564699 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 48FE3F5B1CA5188600564699;
+					};
+				};
+			};
+			buildConfigurationList = 48FE3F571CA5188600564699 /* Build configuration list for PBXProject "ProjectSunshine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48FE3F531CA5188600564699;
+			productRefGroup = 48FE3F5D1CA5188600564699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48FE3F5B1CA5188600564699 /* ProjectSunshine */,
+				48FE3F6F1CA5188700564699 /* ProjectSunshineTests */,
+				48FE3F7A1CA5188700564699 /* ProjectSunshineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48FE3F5A1CA5188600564699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FE3F6A1CA5188700564699 /* LaunchScreen.storyboard in Resources */,
+				48FE3F671CA5188600564699 /* Assets.xcassets in Resources */,
+				48FE3F651CA5188600564699 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F6E1CA5188700564699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F791CA5188700564699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48FE3F581CA5188600564699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FE3F621CA5188600564699 /* ViewController.swift in Sources */,
+				48FE3F601CA5188600564699 /* AppDelegate.swift in Sources */,
+				48FE3F8E1CA5195200564699 /* WeatherClient.swift in Sources */,
+				48FE3F901CA51A2D00564699 /* WeatherAPIConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F6C1CA5188700564699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FE3F751CA5188700564699 /* ProjectSunshineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FE3F771CA5188700564699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FE3F801CA5188700564699 /* ProjectSunshineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48FE3F721CA5188700564699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48FE3F5B1CA5188600564699 /* ProjectSunshine */;
+			targetProxy = 48FE3F711CA5188700564699 /* PBXContainerItemProxy */;
+		};
+		48FE3F7D1CA5188700564699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48FE3F5B1CA5188600564699 /* ProjectSunshine */;
+			targetProxy = 48FE3F7C1CA5188700564699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48FE3F631CA5188600564699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48FE3F641CA5188600564699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48FE3F681CA5188600564699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48FE3F691CA5188600564699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48FE3F821CA5188700564699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48FE3F831CA5188700564699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48FE3F851CA5188700564699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectSunshine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48FE3F861CA5188700564699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectSunshine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48FE3F881CA5188700564699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectSunshineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectSunshine.app/ProjectSunshine";
+			};
+			name = Debug;
+		};
+		48FE3F891CA5188700564699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectSunshineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectSunshine.app/ProjectSunshine";
+			};
+			name = Release;
+		};
+		48FE3F8B1CA5188700564699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectSunshineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectSunshine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48FE3F8C1CA5188700564699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectSunshineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.ProjectSunshineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectSunshine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48FE3F571CA5188600564699 /* Build configuration list for PBXProject "ProjectSunshine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FE3F821CA5188700564699 /* Debug */,
+				48FE3F831CA5188700564699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48FE3F841CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FE3F851CA5188700564699 /* Debug */,
+				48FE3F861CA5188700564699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48FE3F871CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FE3F881CA5188700564699 /* Debug */,
+				48FE3F891CA5188700564699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48FE3F8A1CA5188700564699 /* Build configuration list for PBXNativeTarget "ProjectSunshineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FE3F8B1CA5188700564699 /* Debug */,
+				48FE3F8C1CA5188700564699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48FE3F541CA5188600564699 /* Project object */;
+}
